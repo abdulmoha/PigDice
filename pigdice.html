@@ -9,29 +9,47 @@
     <title>Pig-Dice</title>
   </head>
   <body>
-    <div class="container">
+    <div class="containerBig">
 
       <h1>Pig-Dice</h1>
 
       <div class="jumbotron">
 
+        <div class="about">
+          <h2>About Pig-dice</h2>
+          <p>Pig is a simple dice game.It is played with many rule variations.
+          Pig is most commonly used by mathematics teachers to teach probability concepts.</p>
+
+        </div>
+
         <div class="rules">
           <h2>Rules</h2>
           <p>These are the rules for the ig-dice game:</p>
           <ul id="rules">
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>If a player rolls a 1,they get nothing and the turn goes to the other player.</li>
+            <li>If a player rolls any other number,it is added to their turn total and the player's turn continues.</li>
+            <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
           </ul>
         </div>
 
-        <div class="row">
+        <div class="container-play">
 
-          <div class="col-md-6">
-            <form id="firstPlayer">
-              <input type="text" name="" value="">
-              <button type="button" name="button"></button>
-            </form>
+            <h2>Let's Play!</h2>
+
+          <div class="row">
+
+            <div class="col-md-6">
+              <form id="playerOne">
+                <input type="text" placeholder="Your Total" value="">
+              </form>
+            </div>
+
+            <div class="col-md-6">
+              <form id="playerTwo">
+                <input type="text" placeholder="Your Total" value="">
+              </form>
+            </div>
+
           </div>
 
         </div>
