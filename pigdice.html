@@ -24,7 +24,7 @@
 
         <div class="rules">
           <h2>Rules</h2>
-          <p>These are the rules for the ig-dice game:</p>
+          <p>These are the rules for the pig-dice game:</p>
           <ul id="rules">
             <li>If a player rolls a 1,they get nothing and the turn goes to the other player.</li>
             <li>If a player rolls any other number,it is added to their turn total and the player's turn continues.</li>
@@ -34,22 +34,34 @@
 
         <div class="container-play">
 
-            <h2>Let's Play!</h2>
+            <h2 id="lplay">Let's Play!</h2>
 
           <div class="row">
 
             <div class="col-md-6">
+              <h3>Player One:</h3>
               <form id="playerOne">
-                <input type="text" placeholder="Your Total" value="">
+                <span id="pOne"></span>
               </form>
             </div>
 
             <div class="col-md-6">
+              <h3>Player Two:</h3>
               <form id="playerTwo">
-                <input type="text" placeholder="Your Total" value="">
+                <span id="pTwo"></span>
               </form>
             </div>
 
+          </div>
+
+          <div class="rollPass">
+            <span id="score"><h3>Score:</h3></span>
+             <ul>
+
+             </ul>
+            <button type="button" name="button" id="roll">Roll</button>
+
+            <button type="button" name="button" id="pass">Pass</button>
           </div>
 
         </div>
