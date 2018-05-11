@@ -1,7 +1,7 @@
 body{
-  background: url("../img/rnm.png");
+  background: url("../img/groot3.jpg");
   background-repeat: no-repeat;
-  color: #000;
+  color: #fff;
   background-size: cover;
 }
 h1{
@@ -24,7 +24,7 @@ h1{
   margin: 0 auto;
   width: 75%;
   padding: 50px;
-  opacity: 0.9;
+  opacity: 0.6;
   color: green;
 }
 .rules{
