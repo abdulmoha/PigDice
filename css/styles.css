@@ -3,6 +3,7 @@ body{
   background-repeat: no-repeat;
   color: #fff;
   background-size: cover;
+  cursor: default;
 }
 h1{
   text-align: center;
@@ -52,18 +53,35 @@ h3{
   font-size: 17px;
   color:#DF2723 ;
 }
-.rollPass{
+.rollPass1{
   text-align: center;
   padding-top: 80px;
   color: #000;
 }
-#roll{
+.rollPass2{
+  text-align: center;
+  padding-top: 80px;
+  color: #000;
+}
+#roll1{
   padding: 5px;
   background-color: red;
   border: 1px solid white;
   border-radius: 7px;
 }
-#pass{
+#pass1{
+  padding: 5px;
+  background-color: blue;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+#roll2{
+  padding: 5px;
+  background-color: red;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+#pass2{
   padding: 5px;
   background-color: blue;
   border: 1px solid white;
